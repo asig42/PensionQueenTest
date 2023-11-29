@@ -1,0 +1,49 @@
+.titleImg {
+  width: 100%;
+}
+
+.imgGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  width: 90%;
+  margin: 100px auto;
+}
+
+.imgGrid img {
+  width: 100%;
+}
+
+.imgNav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  width: 90%;
+  margin: auto;
+}
+
+.imgNav .imgNavCategory {
+  position: relative;
+}
+
+.imgNav .imgNavCategory img {
+  width: 100%;
+  transition: all 0.2s linear;
+  filter: brightness(50%)
+}
+
+.imgNav .imgNavCategory img:hover {
+  filter: brightness(100%)
+}
+
+.imgNav .imgNavCategory p {
+  color: white;
+  font-size: 36px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate( -50%, -50% );
+}

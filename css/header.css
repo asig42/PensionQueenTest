@@ -1,0 +1,33 @@
+.header {
+  padding-top: 52px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  height: 103.62px;
+  width: 180px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 811px;
+  margin: 20px auto 0 auto;
+}
+
+.nav .category {
+  color: #FFF;
+  
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
