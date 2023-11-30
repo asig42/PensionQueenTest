@@ -24,9 +24,11 @@
 }
 
 .nav .category {
+  width: 140px;
+
   color: #FFF;
-  
   font-size: 26px;
+  text-align: center;
   font-style: normal;
   font-weight: 700;
   text-decoration: none;
