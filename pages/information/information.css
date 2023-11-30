@@ -20,3 +20,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.information .content .contents p {
+  margin-bottom: 15px;
+}
