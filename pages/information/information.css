@@ -1,0 +1,22 @@
+.information .header {
+  position: fixed;
+  top: 0;
+}
+
+.information .header a {
+  color: black;
+}
+
+.information .content {
+  width: 1200px;
+  margin: 260px auto -20px auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.information .content .contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
