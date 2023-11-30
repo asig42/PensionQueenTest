@@ -10,10 +10,11 @@
 .footer .footerWrap {
   width: 60%;
   margin: auto;
+
+  text-decoration-line: none;
 }
 
 .footer .title {
-  color: #000;
   font-size: 16px;
   font-weight: 700;
 
@@ -22,7 +23,6 @@
 
 .footer .content {
   display: flex;
-
   margin-bottom: 48px;
 }
 

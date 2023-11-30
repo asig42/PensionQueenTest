@@ -15,43 +15,6 @@
   filter: opacity(60%);
 }
 
-.policy .banner {
-  width: 100%;
-  height: 200px;
-  margin: 212.12px 0 0 0;
-  object-fit: cover;
-
-  filter: opacity(60%);
-}
-
-.reservation .announce {
-  width: 1200px;
-  margin: 40px auto 0 auto;
-
-}
-
-.reservation .announce h1 {
-  color: #000;
-  height: 64px;
-  border-bottom: solid 1px black;
-
-  font-family: Inter;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.reservation .announce .announceGrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-}
-
-.reservation .announce .announceGrid p {
-  line-height: 200%;
-}
-
 .reservation .next {
   width: 1200px;
   margin: 85px auto 0 auto;
@@ -67,6 +30,15 @@
   border-radius: 100px;
   background: #000;
   color: white;
+}
+
+.policy .announce {
+  width: 1200px;
+  margin: auto;
+}
+
+.policy .announce h1 {
+  margin-block-end: 0;
 }
 
 .policy .policyGrid {

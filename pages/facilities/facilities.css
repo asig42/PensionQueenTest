@@ -1,0 +1,51 @@
+.facilities .banner {
+  position: relative;
+}
+
+.facilities .banner .main {
+  width: 100%;
+}
+
+.facilities .banner p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate( -50%, -50% );
+
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.facilities .gallery {
+  width: 1200px;
+  margin: auto;
+}
+
+.facilities .gallery .block {
+  margin: 90px 0 0 0;
+}
+
+.facilities .gallery .block .title {
+  height: 50px;
+  border-top: solid 1px black;
+}
+
+.facilities .gallery .block .title h3 {
+  margin: 15px;
+
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.facilities .gallery .block .imgGallery {
+  margin-top: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.facilities .gallery .block .imgGallery img {
+  width: 100%;
+}

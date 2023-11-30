@@ -1,8 +1,8 @@
-.information .titleImg {
+.space .titleImg {
   width: 100%;
 }
 
-.information .imgGrid {
+.space .imgGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -11,11 +11,11 @@
   margin: 100px auto;
 }
 
-.information .imgGrid img {
+.space .imgGrid img {
   width: 100%;
 }
 
-.information .imgNav {
+.space .imgNav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -24,21 +24,21 @@
   margin: auto;
 }
 
-.information .imgNav .imgNavCategory {
+.space .imgNav .imgNavCategory {
   position: relative;
 }
 
-.information .imgNav .imgNavCategory img {
+.space .imgNav .imgNavCategory img {
   width: 100%;
   transition: all 0.2s linear;
   filter: brightness(50%)
 }
 
-.information .imgNav .imgNavCategory img:hover {
+.space .imgNav .imgNavCategory img:hover {
   filter: brightness(100%)
 }
 
-.information .imgNav .imgNavCategory p {
+.space .imgNav .imgNavCategory p {
   color: white;
   font-size: 36px;
 
