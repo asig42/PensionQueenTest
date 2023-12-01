@@ -1,9 +1,9 @@
-.mainCarousel {
+.home .mainCarousel {
   position: relative;
   z-index: 0;
 }
 
-.mainText {
+.home .mainText {
   color: #FFF;
   font-size: 30px;
   font-weight: 700;
@@ -16,6 +16,13 @@
 	transform: translate( -50%, -50% );
 }
 
-.mainVideo {
+.home .mainVideo {
   width: 100%;
+}
+
+
+@media ( max-width: 768px ) {
+  .home .mainText {
+    font-size: 1em;
+  }
 }

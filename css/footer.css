@@ -32,3 +32,28 @@
 
   padding: 0 64px 0 0;
 }
+
+@media ( max-width: 768px ) {
+  .footer {
+    height: auto;
+  }
+
+  .footer .footerWrap {
+    display: flex;
+  }
+
+  .footer .title {
+    padding: 32px 0 0 0;
+  }
+
+  .footer .content {
+    display: block;
+
+    padding: 32px 0 0 0;
+  }
+
+  .footer .content .contents {
+    width: 290px;
+    padding: 0 0 0 10px;
+  }
+}
