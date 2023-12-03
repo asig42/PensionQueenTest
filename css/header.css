@@ -35,9 +35,16 @@
 }
 
 @media ( max-width: 768px ) {
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+
   .header {
     padding: 10px 20px;
     display: flex;
+    position: fixed;
+
+    width: 100%;
   }
 
   .header #logo {
