@@ -63,3 +63,21 @@
 .policy .policyGrid p {
   line-height: 150%;
 }
+
+@media ( max-width: 768px ) {
+  .policy .announce {
+    width: 80%;
+  }
+
+  .policy .policyGrid {
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    width: 80%;
+  }
+
+  .reservation .next {
+    width: 80%;
+  }
+}
