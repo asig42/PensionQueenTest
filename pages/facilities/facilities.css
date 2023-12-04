@@ -49,3 +49,12 @@
 .facilities .gallery .block .imgGallery img {
   width: 100%;
 }
+
+@media ( max-width: 768px ) {
+  .facilities .banner p {
+    width: 100%;
+
+    font-size: 14pt;
+    text-align: center;
+  }
+}
