@@ -79,7 +79,7 @@
   }
 
   .policy .announce {
-    width: 80%;
+    width: 90%;
   }
 
   .policy .policyGrid {
@@ -87,7 +87,7 @@
     flex-direction: column;
     
     margin: auto;
-    width: 80%;
+    width: 90%;
   }
 
   .reservation .next {
