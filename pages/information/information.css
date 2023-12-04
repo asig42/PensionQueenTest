@@ -3,7 +3,7 @@
   top: 0;
 }
 
-.information .header a {
+.information .header p {
   color: black;
 }
 
@@ -13,6 +13,7 @@
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
 
 .information .content .contents {
@@ -23,4 +24,30 @@
 
 .information .content .contents p {
   margin-bottom: 15px;
+}
+
+@media ( max-width: 768px ) {
+  .information .header p {
+    color: black;
+  }
+
+  .information .content {
+    width: 80%;
+  }
+
+  .information .content {
+    width: 100vw;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .information #map {
+    height: 50vh;
+  }
+  
+  .information .content .contents {
+    margin-left: 15px;
+  }
 }

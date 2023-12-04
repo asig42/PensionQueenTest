@@ -65,7 +65,7 @@
 }
 
 @media ( max-width: 768px ) {
-  .reservation .header a {
+  .reservation .header p {
     color: black;
   }
 

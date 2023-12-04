@@ -26,7 +26,6 @@
 .header .nav .category {
   width: 140px;
 
-  color: #FFF;
   font-size: 26px;
   text-align: center;
   font-style: normal;
@@ -44,7 +43,7 @@
     display: flex;
     position: fixed;
 
-    width: 100%;
+    width: 100vw;
   }
 
   .header #logo {
@@ -58,7 +57,7 @@
   }
 
   .header .nav .category {
-    width: 55px;
+    width: auto;
     height: auto;
     margin: 0 10px;
 
