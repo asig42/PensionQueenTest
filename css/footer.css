@@ -51,5 +51,6 @@
   .footer .content .contents {
     width: auto;
     padding: 0;
+    margin-bottom: 0;
   }
 }

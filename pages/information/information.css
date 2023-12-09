@@ -5,6 +5,7 @@
 
 .information .header .category {
   color: black;
+  text-shadow: none;
 }
 
 .information .content {

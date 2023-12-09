@@ -1,6 +1,6 @@
 .header {
   padding-top: 52px;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   z-index: 999;
 }
@@ -15,7 +15,7 @@
   width: 180px;
 }
 
-.header .nav {
+.header .desktopNav {
   display: flex;
   justify-content: space-evenly;
 
@@ -23,7 +23,7 @@
   margin: 20px auto 0 auto;
 }
 
-.header .nav .category {
+.header .desktopNav .category {
   width: 140px;
   color: white;
 
@@ -32,6 +32,15 @@
   font-style: normal;
   font-weight: 700;
   text-decoration: none;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.header .reservationBtn {
+  display: none;
+}
+
+.header .mobileHeader {
+  display: none;
 }
 
 @media ( max-width: 768px ) {
@@ -40,28 +49,102 @@
   }
 
   .header {
-    padding: 10px 20px;
-    display: flex;
-    position: fixed;
+    padding: 10px;
+    background-color: white;
 
-    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header .desktopNav {
+    display: none;
+  }
+
+  .header .reservationBtn {
+    display: block;
   }
 
   .header #logo {
-    width: 34px;
-    height: 20px;
+    height: 30px;
+    width: 51px;
   }
 
-  .header .nav {
-    margin: auto;
-    justify-content: end;
+  .header .mobileHeader {
+    display: block;
+    top: 0;
+    z-index: 999;
   }
 
-  .header .nav .category {
+  .header .reservationBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: solid 1px black;
+    border-radius: 2px;
+
+    width: 55px;
+    height: 25px;
+  }
+
+  .header .reservationBtn a {
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  .header .navWrap {
     width: auto;
-    height: auto;
-    margin: 0 10px;
+    margin: 0;
+  }
 
-    font-size: 11px;
+  .header .bars {
+    height: 30px;
+
+    display: flex;
+    justify-content:end;
+    align-items: center;
+  }
+
+  .header .headerSource {
+    width: 60px;
+  }
+
+  .header .fa-bars {
+    width: 20px;
+  }
+
+  #modalBtn {
+    cursor: pointer;
+  }
+
+  #modalContainer {
+    position: fixed;
+    top: 50px;
+    right: 0%;
+  }
+
+  #modalContent {
+    background-color: white;
+    padding: 15px;
+  }
+
+  #modalContainer.hidden {
+    display: none;
+  }
+
+  .mobileNav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobileNav .category{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+
+    padding: 18px;
   }
 }

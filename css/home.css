@@ -20,9 +20,26 @@
   width: 100%;
 }
 
+.home .mainImg {
+  display: none;
+}
+
 
 @media ( max-width: 768px ) {
   .home .mainText {
     font-size: 1em;
+  }
+
+  .home .mainImg {
+    display: block;
+    padding-top: 50px;
+  }
+
+  .home .mainImg img {
+    width: 100vw;
+  }
+
+  .home .mainCarousel {
+    display: none;
   }
 }

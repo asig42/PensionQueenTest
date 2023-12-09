@@ -1,9 +1,11 @@
 .reservation .header {
   background-color: white;
+  padding-bottom: 50px;
 }
 
 .reservation .header .category {
   color: black;
+  text-shadow: none;
 }
 
 .reservation .banner {
