@@ -7,15 +7,38 @@
   <link href="../../../css/header.css" rel="stylesheet" type="text/css" />
   <link href="../../../css/footer.css" rel="stylesheet" type="text/css" />
   <link href="../space.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/28fcb787fc.js" crossorigin="anonymous"></script>
   <title>Pension Queen</title>
 </head>
 <body class="space">
   <!-- Header -->
   <div class='header'>
+    <div class="reservationBtn headerSource">
+      <a href="https://map.naver.com/p/search/펜션퀸/place/1186950624?placePath=?entry=pll&from=nx&fromNxList=true&c=15.00,0,0,0,dh">예약하기</a>
+    </div>
     <div class='logo'>
       <a href="../../../index.html"> <img id='logo' src='../../../assets/logo.png' /> </a>
     </div>
-    <div class='nav'>
+    <div class="navWrap headerSource">
+      <div class='desktopNav'>
+      <a href=".space.html" class='category'>Space</a>
+      <a href="./pages/facilities/facilities.html" class='category'>Facilities</a>
+      <a href="./pages/reservation/reservation.html" class='category'>Reservation</a>
+      <a href="./pages/information/information.html" class='category'>Information</a> 
+      </div>
+
+      <!-- Mobile Header -->
+      <div class="mobileHeader headerSource" id="modalBtn">
+        <div class="bars">
+          <i class="fa-solid fa-bars modalBtn"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 모달 -->
+  <div id="modalContainer" class="hidden">
+    <div id="modalContent" class="mobileNav">
       <a href="../space.html" class='category'>Space</a>
       <a href="../../facilities/facilities.html" class='category'>Facilities</a>
       <a href="../../reservation/reservation.html" class='category'>Reservation</a>

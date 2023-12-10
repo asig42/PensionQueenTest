@@ -53,7 +53,10 @@
 @media ( max-width: 768px ) {
   .facilities .gallery {
     width: 100vw;
-    margin: auto;
+  }
+
+  .facilities .banner .main {
+    margin: 55px 0 0 0;
   }
 
   .facilities .banner p {
